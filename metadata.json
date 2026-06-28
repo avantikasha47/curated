@@ -1,0 +1,6 @@
+{
+  "name": "CURATED",
+  "description": "A high-end, visually stunning art portfolio and e-commerce marketplace for physical and digital masterpieces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

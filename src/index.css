@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+/* Base styling */
+html, body {
+  background-color: #fbf9f8;
+  color: #1b1c1c;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+}
+
+/* Material symbols adjustment */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Custom smooth scrollbar for horizontal categories scroll */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 9999px;
+}
+
+/* Glassmorphism background blur */
+.glass-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Perspective rules for elegant transforms */
+.perspective-lg {
+  perspective: 2000px;
+}
+
