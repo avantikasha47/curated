@@ -20,7 +20,7 @@
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAwcdyb9jgPlT251-OtD3z7NxustuhyP7noYggPOoc-1yEPVulWGZ8fEsGnsvDciO7I6P7YkQTfJytl75bpQreYlKzkTyMryZD_ZFRAML2jWEQ7VCAmEyxekZxVWloeQqJDLUwnCqqoKvknoNvA9Y4z03aeVZzThvLXkf0xC6c4r2htaA5GZlIO0Mux3zu815NfroSSCY6i8Mcc50LLNOmzvPAZRUULBhJ4ZbUmAoVW8OtbIQ-lDK1qk4R43Ei-Sv4Obqg68B3moaxC",
       "category": "digital",
       "description": "Abstract digital painting with flowing, liquid-like shapes in shades of pearl white, soft charcoal, and a single striking accent of electric violet. The textures look like premium silk suspended in zero gravity.",
-      "isAvailable": true
+      "isAvailable": false
     },
     {
       "id": "art-3",
@@ -31,7 +31,7 @@
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBX_V4aEScLwPeATyefdn6i6Qr0nirQz25FgZ-yi3AsbuG-pJFHF8HpjU9JSasf-DuWltyJ68EeOZ7DwAMv3cttJE7X8PXt0mp35dbV1sZ83fMPJbVFgnUcjdct8RHke_DBaC_gGKI8kWRXuFTj61heBU5bClsWGPUc53wBwYV9BFkaUZvQe5X3n1LdV6dLSUCH-UaHsVU9k6rihgQzwJz-oGAikBW6SliOJ3edB712aCV59HM9wg0qXUYlMDKhrIH-dBeQzQJiVAQa",
       "category": "sculpture",
       "description": "Minimalist high-contrast portrait of a stone sculpture with intricate, fine details. The lighting is stark and directional, creating deep charcoal shadows against a bright cream background.",
-      "isAvailable": true
+      "isAvailable": false
     },
     {
       "id": "art-4",
@@ -173,10 +173,13 @@
         "art-10",
         "art-11",
         "art-12",
-        "art-1"
+        "art-1",
+        "art-3",
+        "art-2"
       ],
       "favoriteArtIds": [
-        "art-13"
+        "art-13",
+        "art-1"
       ],
       "isVerified": true,
       "avatarUrl": "/assets/profile-photo.jpeg"
@@ -236,6 +239,37 @@
       "paymentMethod": "Connected Wallet",
       "status": "confirmed",
       "createdAt": "2026-06-27T19:15:03.535Z"
+    },
+    {
+      "id": "CR-951565",
+      "transactionHash": "0xdc206716105ddbf8f7a3a8a866b5828129fa1b73",
+      "items": [
+        {
+          "artworkId": "art-3",
+          "title": "Symmetry III",
+          "artist": "Julian Arthe",
+          "price": 2400,
+          "priceUnit": "€",
+          "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBX_V4aEScLwPeATyefdn6i6Qr0nirQz25FgZ-yi3AsbuG-pJFHF8HpjU9JSasf-DuWltyJ68EeOZ7DwAMv3cttJE7X8PXt0mp35dbV1sZ83fMPJbVFgnUcjdct8RHke_DBaC_gGKI8kWRXuFTj61heBU5bClsWGPUc53wBwYV9BFkaUZvQe5X3n1LdV6dLSUCH-UaHsVU9k6rihgQzwJz-oGAikBW6SliOJ3edB712aCV59HM9wg0qXUYlMDKhrIH-dBeQzQJiVAQa"
+        },
+        {
+          "artworkId": "art-2",
+          "title": "Void Study",
+          "artist": "Julian Arthe",
+          "price": 1500,
+          "priceUnit": "€",
+          "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAwcdyb9jgPlT251-OtD3z7NxustuhyP7noYggPOoc-1yEPVulWGZ8fEsGnsvDciO7I6P7YkQTfJytl75bpQreYlKzkTyMryZD_ZFRAML2jWEQ7VCAmEyxekZxVWloeQqJDLUwnCqqoKvknoNvA9Y4z03aeVZzThvLXkf0xC6c4r2htaA5GZlIO0Mux3zu815NfroSSCY6i8Mcc50LLNOmzvPAZRUULBhJ4ZbUmAoVW8OtbIQ-lDK1qk4R43Ei-Sv4Obqg68B3moaxC"
+        }
+      ],
+      "subtotal": 3900,
+      "processingFee": 15,
+      "total": 3915,
+      "walletAddress": "0x8a2f3a9d7b4e5c1f91c3d0b2a5e8c1f90a1b2c3d",
+      "name": "Avantika Sharma",
+      "email": "avantika@curated.art",
+      "paymentMethod": "Connected Wallet",
+      "status": "confirmed",
+      "createdAt": "2026-06-29T08:56:14.470Z"
     }
   ]
 }
